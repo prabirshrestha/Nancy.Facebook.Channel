@@ -6,9 +6,11 @@ namespace Nancy.Facebook.Channel
 
     public class FacebookChannelResponse : Response
     {
+        internal const int DefaultCacheExpires = 60 * 60 * 24 * 365;
+
         private static readonly byte[] ContentByteArray = Encoding.UTF8.GetBytes("<script src=\"//connect.facebook.net/en_US/all.js\"></script>");
 
-        public FacebookChannelResponse(int cacheExpires = 60 * 60 * 24 * 365)
+        public FacebookChannelResponse(int cacheExpires = DefaultCacheExpires)
         {
             Headers["Pragma"] = "public";
             Headers["Cache-Control"] = "maxage=" + cacheExpires;
