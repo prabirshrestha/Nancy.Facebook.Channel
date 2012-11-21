@@ -6,7 +6,7 @@
         <title/>
         <authors>Prabir Shrestha</authors>
         <owners>Prabir Shrestha</owners>
-        <description>Facebook Channel file helper for Nancy</description>
+        <description>Channel file for Facebook to address issues with cross domain communication in certain browsers.</description>
         <language>en-US</language>
         <licenseUrl>https://raw.github.com/prabirshrestha/Nancy.Facebook.Channel/master/LICENSE</licenseUrl>
         <projectUrl>https://raw.github.com/prabirshrestha/Nancy.Facebook.Channel</projectUrl>
