@@ -22,7 +22,7 @@ using Nancy.Facebook.Channel;
 Get["/facebook/channel"] = _ => new FacebookChannelResponse();
 ```
 
-```js
+```html
 <div id="fb-root"></div>
 <script>
   window.fbAsyncInit = function() {
