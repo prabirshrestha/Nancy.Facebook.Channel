@@ -51,7 +51,7 @@ Get["/facebook/channel"] = _ => new FacebookChannelResponse();
 
 The channel file addresses some issues with cross domain communication in certain browsers. The contents of the channel.html file can be just a single line:
 
-```javascript
+```html
  <script src="//connect.facebook.net/en_US/all.js"></script>
  ```
 
